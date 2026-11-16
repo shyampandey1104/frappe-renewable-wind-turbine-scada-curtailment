@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include windpower *.css
+recursive-include windpower *.csv
+recursive-include windpower *.html
+recursive-include windpower *.ico
+recursive-include windpower *.js
+recursive-include windpower *.json
+recursive-include windpower *.md
+recursive-include windpower *.png
+recursive-include windpower *.py
+recursive-include windpower *.svg
+recursive-include windpower *.txt
+recursive-exclude windpower *.pyc
